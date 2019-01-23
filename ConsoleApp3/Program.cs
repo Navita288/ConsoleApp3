@@ -10,11 +10,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int sum = 0;
-            for(int i = 15; i>10;)
+            int i = 5;
+            int sum;
+            sum = 0;
+            while (i<=10)
             {
-                i++;
                 sum += i;
+                i++;
             }
             Console.WriteLine(sum);
             Console.ReadLine();
