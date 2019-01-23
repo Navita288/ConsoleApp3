@@ -10,6 +10,14 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            for(int i = 15; i>10;)
+            {
+                i++;
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            Console.ReadLine();
         }
     }
 }
