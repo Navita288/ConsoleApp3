@@ -20,6 +20,7 @@ namespace ConsoleApp3
             }
             Console.WriteLine(sum);
             Console.ReadLine();
+            int dog = 22;
         }
     }
 }
